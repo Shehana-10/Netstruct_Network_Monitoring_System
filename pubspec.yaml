@@ -1,0 +1,74 @@
+name: fyp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase (v8 compatible)
+  firebase_core: ^2.14.0
+  firebase_database: ^10.0.9
+  firebase_auth: ^4.6.1          # Downgraded to match v8
+  firebase_core_web: ^2.14.0     # For web support
+  firebase_auth_web: ^5.7.0      # Compatible with firebase_auth v4.x
+
+  # Syncfusion (all v20.4.48)
+  syncfusion_flutter_charts: ^29.2.11
+  syncfusion_flutter_gauges: ^29.2.4
+  syncfusion_flutter_core:  ^29.2.4
+  
+
+  # Other packages
+  cupertino_icons: ^1.0.8
+  mqtt_client: ^10.8.0
+  http: ^1.5.0
+  js: ^0.7.2
+  intl: ^0.18.1
+  fl_chart: ^1.0.0
+  audioplayers: ^6.4.0
+ 
+  provider: ^6.1.5
+  connectivity_plus: ^6.1.4
+  network_info_plus: ^6.1.4
+  google_fonts: ^6.2.1
+  supabase_flutter: ^2.9.1
+  postgrest: ^2.4.2
+  flutter_native_splash: ^2.4.6
+  mailer: ^6.5.0
+  just_audio: ^0.9.44
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.4"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Group2.png"
+  adaptive_icon_foreground: "assets/images/netstruct_logo.png"
+  adaptive_icon_background: "assets/images/bg.png"
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/netstruct_logo.png
+    - assets/audio/beep-warning-6387.mp3
+    - assets/images/BackgroundV1.jpeg
+    - assets/images/Banner.jpeg
+    - assets/images/image1.png
+    - assets/audio/notification.mp3
+    - assets/images/user.png
+    - assets/images/Group2.png
+    - assets/audio/mixkit.ogg
+    - assets/audio/mixkit.wav
+
+
